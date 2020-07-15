@@ -1,0 +1,31 @@
+{
+  "name": "DiscordRPC",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . DiscordRPC --extraResource=ui --out DiscordRPC --overwrite --platform=win32 --arch=x64 --icon=DC.ico --prune=true --squirrel-install --ignore=node_modules/electron-*"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Rirto",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "asar": "^3.0.3",
+    "electron": "^9.0.5",
+    "electron-builder": "^22.7.0",
+    "electron-packager": "^15.0.0",
+    "grunt": "^1.2.0",
+    "grunt-electron-installer": "^2.1.0"
+  },
+  "dependencies": {
+    "discord-rich-presence": "0.0.8",
+    "discord-rpc": "^3.1.1"
+  }
+}

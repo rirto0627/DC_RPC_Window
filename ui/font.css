@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "蒙纳漫画";
+    src: url('font.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {font-family: 蒙纳漫画, Serif;}
